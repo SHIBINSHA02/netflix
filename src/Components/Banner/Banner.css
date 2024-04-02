@@ -1,0 +1,56 @@
+.content {
+    
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif; /* Apply the font family */
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    font-family: 'Roboto', sans-serif; /* Apply the font family */
+}
+
+.description {
+    max-width: 360px;
+    width: 45rem;
+    line-height: 1.5;
+    height: 80px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; /* Apply the font family */
+}
+
+.button {
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    margin: 1rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Apply the font family */
+    position: relative; 
+    z-index: 1;
+}
+
+.button:hover {
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.fade_bottom {
+    margin-top: 60px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+
+.banner{
+    background-image: url('https://wallpapercave.com/wp/wp6581266.jpg');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center top;
+    height: 500px;
+}

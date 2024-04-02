@@ -1,0 +1,42 @@
+.row {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.posters {
+  display: flex;
+  overflow-x: auto; /*Enable horizontal scrolling */
+  overflow-y: hidden; 
+}
+
+.posters::-webkit-scrollbar{
+  display: none;
+}
+
+.poster {
+  flex-shrink: 0; /*Prevent posters from shrinking */
+  max-height: 250px;
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition: transform 0.0s;
+  opacity: 1; 
+}
+
+.smallPoster{
+  max-height: 150px;
+  width: auto;
+  margin-right: 10px;
+  transition: transform 0.0s;
+  opacity: 1; 
+}
+
+/* Apply scaling effect on hover */
+.poster:hover, .smallPoster:hover{
+  transform: scale(1.2);
+}
